@@ -1,0 +1,20 @@
+// Title: Fizz Buzz
+            // Difficulty: Easy
+            // Language: Python3
+            // Link: https://leetcode.com/problems/fizz-buzz/
+
+            elif num%3==0:
+                answer[i]="Fizz"
+            elif num%5==0:
+                answer[i]="Buzz"
+            else:
+                answer[i]=str(num)
+            
+        return answer
+                answer[i]="FizzBuzz"
+            if num%15==0:
+        for i,num in enumerate(answer):
+    def fizzBuzz(self, n: int) -> List[str]:
+        answer=list(range(1,n+1))
+
+class Solution:
