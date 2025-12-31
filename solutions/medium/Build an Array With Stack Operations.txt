@@ -1,0 +1,21 @@
+// Title: Build an Array With Stack Operations
+            // Difficulty: Medium
+            // Language: Python3
+            // Link: https://leetcode.com/problems/build-an-array-with-stack-operations/
+
+            while i != x:
+            # if top of stack isn't equal to target, pop
+            
+                ops.append("Push")
+            if i<=n:
+            # always Push new numbers
+                ops.append("Pop")
+                i+=1
+        for x in target:
+
+        i = 1
+        ops = []
+    def buildArray(self, target: List[int], n: int) -> List[str]:
+                ops.append("Push")
+                
+            i+=1
