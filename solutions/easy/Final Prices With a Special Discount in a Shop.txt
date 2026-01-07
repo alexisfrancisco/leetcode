@@ -5,17 +5,17 @@
 
 class Solution:
     def finalPrices(self, prices: List[int]) -> List[int]:
+
+        # for index, price in prices
         for i,item in enumerate(prices):
+
+            # setting up inner loop to start at i+1
             start = i + 1
             for nextItem in prices[start:]:
                 if nextItem <= item:
                     discount=item-nextItem
+                    prices[i]=discount
+                    # once item is found, break out of inner loop
                     break
                 
-                    prices[i]=discount
-
-        # for index, price in prices
-
-            # setting up inner loop to start at i+1
-                    # once item is found, break out of inner loop
         return prices
