@@ -1,0 +1,23 @@
+// Title: Largest Rectangle in Histogram
+            // Difficulty: Hard
+            // Language: Python3
+            // Link: https://leetcode.com/problems/largest-rectangle-in-histogram/
+
+            # If the current bar is LOWER than the bar at the top of the stack,
+
+
+        # Iterate through all bars (including the sentinel)
+        for i, h in enumerate(heights):
+        heights.append(0)
+        # Append a sentinel bar of height 0.
+        # This guarantees that all bars remaining in the stack
+        # will be processed by the end of the loop.
+        # Tracks the maximum rectangle area found so far
+        max_area = 0
+
+        # Stack will store indices of bars.
+        # The heights of these indices will always be in NON-DECREASING order.
+        stack = []
+
+class Solution:
+    def largestRectangleArea(self, heights: List[int]) -> int:
