@@ -1,0 +1,16 @@
+// Title: Two Sum II - Input Array Is Sorted
+            // Difficulty: Medium
+            // Language: Python3
+            // Link: https://leetcode.com/problems/two-sum-ii---input-array-is-sorted/
+
+class Solution:
+    def twoSum(self, numbers: List[int], target: int) -> List[int]:
+        
+        while numbers:
+
+
+            if n2 in numbers:
+            n2=(target-numbers.pop())
+                i=numbers.index(n2)+1
+                return [i,len(numbers)+1]
+
